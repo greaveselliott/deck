@@ -6,17 +6,19 @@ import {hashHistory, Router, Route, Redirect} from 'react-router';
 import Layout from './layout/layout';
 
 // Pages
-import BlogPage from './pages/blog';
-import PicturePage from './pages/picture';
-import VideoPage from './pages/video';
+import DecksPage from './pages/decks';
+import CardsPage from './pages/cards';
+import PeoplePage from './pages/people';
+import SettingsPage from './pages/settings';
 
 const app = (
   <Router history={hashHistory}>
-    <Redirect from="/" to="/blog" />
+    <Redirect from="/" to="/decks" />
     <Route path="/" component={Layout}>
-      <Route path="blog" component={BlogPage} />
-      <Route path="picture" component={PicturePage} />
-      <Route path="video" component={VideoPage} />
+      <Route path="decks" component={DecksPage} />
+      <Route path="cards" component={CardsPage} />
+        <Route path="people" component={PeoplePage} />
+        <Route path="settings" component={SettingsPage} />
     </Route>
   </Router>
 );

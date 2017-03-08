@@ -52,7 +52,9 @@ gulp.task('lint', () => {
 
 gulp.task('sass', function () {
     return gulp.src('src/assets/sass/app.scss')
-        .pipe(sass.sync().on('error', sass.logError))
+        //.pipe(sourcemaps.init())
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest('public/assets/css/'));
 });
 

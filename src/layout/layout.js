@@ -8,13 +8,16 @@ export default class Layout extends React.Component {
         <div className="top-menu">
           <ul>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/decks">Decks</Link>
             </li>
             <li>
-              <Link to="/picture">Picture</Link>
+              <Link to="/cards">Pictures</Link>
             </li>
             <li>
-              <Link to="/video">Video</Link>
+              <Link to="/people">People</Link>
+            </li>
+            <li>
+              <Link to="/Settings">Settings</Link>
             </li>
           </ul>
         </div>

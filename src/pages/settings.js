@@ -1,7 +1,7 @@
 import React from 'react';
 import CommentBox from '../components/comment-box';
 
-export default class VideoPage extends React.Component {
+export default class SettingsPage extends React.Component {
   render() {
     return (
       <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import CommentBox from '../components/comment-box';
 
-export default class PicturePage extends React.Component {
+export default class CardsPage extends React.Component {
   render() {
     return (
       <div>

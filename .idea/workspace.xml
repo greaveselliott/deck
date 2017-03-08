@@ -2,70 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0707203e-5997-4091-a7ef-bf70897b4e82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/00_base/_base-mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/00_base/_base-reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/00_base/_base-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-check-boxes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-input-fields.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-paragraphs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-radio-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-select-fields.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-textareas.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-form-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-icon-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-navigation-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-profile-card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-search.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-tags.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/02_molecule/_molecule-tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/03_organism/_organism-cards.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/03_organism/_organism-decks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/03_organism/_organism-navigation-menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/04_template/_template-body.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/04_template/_template-collections.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/04_template/_template-footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/04_template/_template-header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sass/04_template/_template-sidebar.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_____template-body.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_____template-collections.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_____template-footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_____template-header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_____template-sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/____organism-cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/____organism-decks.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/____organism-navigation-menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-form-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-icon-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-navigation-link.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-profile-card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-search.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-tags.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/___molecule-tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-check-boxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-headings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-input-fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-paragraphs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-radio-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-select-fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/__atom-textareas.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_global-mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_global-reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/_global-variables.scss" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/settings.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/blog.js" afterPath="$PROJECT_DIR$/src/pages/decks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/picture.js" afterPath="$PROJECT_DIR$/src/pages/cards.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pages/video.js" afterPath="$PROJECT_DIR$/src/pages/people.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/app.scss" afterPath="$PROJECT_DIR$/src/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/app.css" afterPath="$PROJECT_DIR$/public/assets/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/layout.js" afterPath="$PROJECT_DIR$/src/layout/layout.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,11 +29,97 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <element signature="e#187#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cards.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/cards.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment-box.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/comment-box.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_base-fonts.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/sass/00_base/_base-fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/decks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="people.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/people.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="-819">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -95,48 +127,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/sass/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_base-variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/sass/00_base/_base-variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_atom-buttons.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/sass/01_atom/_atom-buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_atom-check-boxes.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/sass/01_atom/_atom-check-boxes.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/app.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -171,14 +163,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/assets/sass/__atom-buttons.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/_global-variables.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/app.scss" />
-        <option value="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-check-boxes.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-buttons.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.babel.js" />
         <option value="$PROJECT_DIR$/src/assets/sass/00_base/_base-variables.scss" />
+        <option value="$PROJECT_DIR$/public/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/gulpfile.babel.js" />
+        <option value="$PROJECT_DIR$/src/assets/sass/01_atom/_atom-check-boxes.scss" />
+        <option value="$PROJECT_DIR$/src/assets/sass/00_base/_base-fonts.scss" />
+        <option value="$PROJECT_DIR$/src/layout/layout.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/pages/cards.js" />
+        <option value="$PROJECT_DIR$/src/pages/decks.js" />
+        <option value="$PROJECT_DIR$/src/pages/people.js" />
+        <option value="$PROJECT_DIR$/src/pages/settings.js" />
       </list>
     </option>
   </component>
@@ -302,11 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,15 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_template" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,15 +337,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03_organism" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,98 +352,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02_molecule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01_atom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="00_base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -483,14 +370,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,6 +403,9 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -671,12 +553,20 @@
       <option name="presentableId" value="Default" />
       <updated>1488327507323</updated>
       <workItem from="1488327510429" duration="510000" />
-      <workItem from="1488585266336" duration="7019000" />
+      <workItem from="1488585266336" duration="11607000" />
     </task>
+    <task id="LOCAL-00001" summary="added rasa fonts">
+      <created>1489004454248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489004454248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7529000" />
+    <option name="totallyTimeSpent" value="12117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -708,8 +598,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added rasa fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rasa fonts" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/decks.js</url>
+          <line>18</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -737,16 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,36 +672,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/picture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,18 +715,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/app.css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/00_base/_base-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -876,7 +747,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/sass/01_atom/_atom-check-boxes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -884,28 +771,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/comment-box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="-819">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/00_base/_base-variables.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/00_base/_base-fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/app.css">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#187#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/decks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/people.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
