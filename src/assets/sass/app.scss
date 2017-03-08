@@ -1,45 +1,44 @@
 @import
 
-  // Global
-"_global-mixins",
-"_global-variables",
-"_global-reset",
+  // base
+"00_base/_base-mixins",
+"00_base/_base-variables",
+"00_base/_base-reset",
 
   // Atoms
-"__atom-fonts",
-"__atom-paragraphs",
-"__atom-headings",
-"__atom-icons",
-"__atom-images",
-"__atom-buttons",
-"__atom-labels",
-"__atom-input-fields",
-"__atom-input-fields",
-"__atom-select-fields",
-"__atom-textareas",
-"__atom-radio-buttons",
-"__atom-check-boxes",
+"01_atom/_atom-fonts",
+"01_atom/_atom-paragraphs",
+"01_atom/_atom-headings",
+"01_atom/_atom-icons",
+"01_atom/_atom-images",
+"01_atom/_atom-buttons",
+"01_atom/_atom-labels",
+"01_atom/_atom-input-fields",
+"01_atom/_atom-input-fields",
+"01_atom/_atom-select-fields",
+"01_atom/_atom-textareas",
+"01_atom/_atom-radio-buttons",
+"01_atom/_atom-check-boxes",
 
   // Molecules
-"___molecule-tags",
-"___molecule-form-row",
-"___molecule-tooltip",
-"___molecule-icon-buttons",
-"___molecule-profile-card",
-"___molecule-search",
-"___molecule-navigation-link",
+"02_molecule/_molecule-tags",
+"02_molecule/_molecule-form-row",
+"02_molecule/_molecule-tooltip",
+"02_molecule/_molecule-icon-buttons",
+"02_molecule/_molecule-profile-card",
+"02_molecule/_molecule-search",
+"02_molecule/_molecule-navigation-link",
 
   // Organisms
-"____organism-cards",
-"____organism-decks",
-"____organism-navigation-menu",
+"03_organism/_organism-cards",
+"03_organism/_organism-decks",
+"03_organism/_organism-navigation-menu",
 
   // Template
-"_____template-collections",
-"_____template-header",
-"_____template-body",
-"_____template-footer",
-"_____template-sidebar"
-
+"04_template/_template-collections",
+"04_template/_template-header",
+"04_template/_template-body",
+"04_template/_template-footer",
+"04_template/_template-sidebar"
   // Pages
 ;

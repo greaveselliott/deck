@@ -9,6 +9,7 @@ import watchify from 'watchify';
 import babelify from 'babelify';
 import uglify from 'gulp-uglify';
 import ifElse from 'gulp-if-else';
+import sass from 'gulp-sass';
 
 watchify.args.debug = true;
 
@@ -16,7 +17,7 @@ const sync = browserSync.create();
 
 // Input file.
 watchify.args.debug = true;
-var bundler = browserify('src/app.js', watchify.args);
+let bundler = browserify('src/app.js', watchify.args);
 
 // Babel transform
 bundler.transform(babelify.configure({
@@ -49,16 +50,23 @@ gulp.task('lint', () => {
       .pipe(eslint.format())
 });
 
-gulp.task('serve', ['transpile'], () => sync.init({ server: 'public' }))
+gulp.task('sass', function () {
+    return gulp.src('src/assets/sass/app.scss')
+        .pipe(sass.sync().on('error', sass.logError))
+        .pipe(gulp.dest('public/assets/css/'));
+});
+
+gulp.task('serve', ['transpile'], () => sync.init({ server: 'public' }));
 gulp.task('js-watch', ['transpile'], () => sync.reload());
 
 gulp.task('watch', ['serve'], () => {
-  gulp.watch('src/**/*', ['js-watch'])
-  gulp.watch('public/assets/style.css', sync.reload)
-  gulp.watch('public/index.html', sync.reload)
-})
+  gulp.watch('src/**/*', ['js-watch']);
+  gulp.watch('src/**/*.scss', ['sass']);
+  gulp.watch('public/assets/style.old.css', sync.reload);
+  gulp.watch('public/index.html', sync.reload);
+});
 
 gulp.task('demo', ['transpile'], () => {
   gulp.src(['public/**/*'])
     .pipe(gulp.dest('demo'));
-})
+});
