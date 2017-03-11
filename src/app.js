@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import {hashHistory, Router, Route, Redirect} from 'react-router';
 
 // Layout
-import Layout from './layout/layout';
+import Layout from './components/00_base/layout';
 
 // Pages
-import DecksPage from './pages/decks';
-import CardsPage from './pages/cards';
-import PeoplePage from './pages/people';
-import SettingsPage from './pages/settings';
+import DecksPage from './components/05_pages/decks';
+import CardsPage from './components/05_pages/cards';
+import PeoplePage from './components/05_pages/people';
+import SettingsPage from './components/05_pages/settings';
 
 const app = (
   <Router history={hashHistory}>
@@ -27,6 +27,6 @@ const app = (
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
     app,
-    document.getElementById('comment-box')
+    document.getElementById('app')
   );
 });

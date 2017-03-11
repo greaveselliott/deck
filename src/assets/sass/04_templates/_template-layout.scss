@@ -1,0 +1,34 @@
+$layout__background--light: $color__accent--light;
+$layout__background--dark: $color__accent--dark;
+$layout__sidebar--color: $color__document;
+$layout__sidebar--width: 340px;
+$layout__gutter: $base-gutter;
+
+.t-layout {
+  // Background
+  background: $layout__background--light; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, $layout__background--light 0%, $layout__background--dark 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, $layout__background--light 0%, $layout__background--dark 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, $layout__background--light 0%, $layout__background--dark 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$layout__background--light}', endColorstr='#{$layout__background--dark}',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  // Layout
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-left: $layout__gutter;
+  margin-right: $layout__gutter;
+  min-height: 100%;
+}
+
+.t-layout__sidebar {
+  background-color: $layout__sidebar--color;
+  width: $layout__sidebar--width;
+  padding-left: $layout__gutter;
+  padding-right: $layout__gutter;
+}
+
+.t-layout__desk {
+  margin-left: $layout__gutter;
+  margin-right: $layout__gutter;
+}

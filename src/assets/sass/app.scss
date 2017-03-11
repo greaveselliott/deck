@@ -1,44 +1,46 @@
 @import
 
-  // base
+// base
 "00_base/_base-mixins",
+"00_base/_base-media-queries",
 "00_base/_base-variables",
 "00_base/_base-reset",
 
-  // Atoms
-"01_atom/_atom-fonts",
-"01_atom/_atom-paragraphs",
-"01_atom/_atom-headings",
-"01_atom/_atom-icons",
-"01_atom/_atom-images",
-"01_atom/_atom-buttons",
-"01_atom/_atom-labels",
-"01_atom/_atom-input-fields",
-"01_atom/_atom-input-fields",
-"01_atom/_atom-select-fields",
-"01_atom/_atom-textareas",
-"01_atom/_atom-radio-buttons",
-"01_atom/_atom-check-boxes",
+// Atoms
+"01_atoms/_atom-fonts",
+"01_atoms/_atom-paragraphs",
+"01_atoms/_atom-headings",
+"01_atoms/_atom-icons",
+"01_atoms/_atom-images",
+"01_atoms/_atom-buttons",
+"01_atoms/_atom-labels",
+"01_atoms/_atom-input-fields",
+"01_atoms/_atom-input-fields",
+"01_atoms/_atom-select-fields",
+"01_atoms/_atom-textareas",
+"01_atoms/_atom-radio-buttons",
+"01_atoms/_atom-check-boxes",
 
-  // Molecules
-"02_molecule/_molecule-tags",
-"02_molecule/_molecule-form-row",
-"02_molecule/_molecule-tooltip",
-"02_molecule/_molecule-icon-buttons",
-"02_molecule/_molecule-profile-card",
-"02_molecule/_molecule-search",
-"02_molecule/_molecule-navigation-link",
+// Molecules
+"02_molecules/_molecule-tags",
+"02_molecules/_molecule-form-row",
+"02_molecules/_molecule-tooltip",
+"02_molecules/_molecule-icon-buttons",
+"02_molecules/_molecule-profile-card",
+"02_molecules/_molecule-search",
+"02_molecules/_molecule-navigation-link",
 
-  // Organisms
-"03_organism/_organism-cards",
-"03_organism/_organism-decks",
-"03_organism/_organism-navigation-menu",
+// Organisms
+"03_organisms/_organism-cards",
+"03_organisms/_organism-decks",
+"03_organisms/organism-navigation",
 
-  // Template
-"04_template/_template-collections",
-"04_template/_template-header",
-"04_template/_template-body",
-"04_template/_template-footer",
-"04_template/_template-sidebar"
-  // Pages
+// Template
+"04_templates/_template-collections",
+"04_templates/_template-header",
+"04_templates/template-layout",
+"04_templates/_template-footer",
+"04_templates/_template-sidebar"
+
+// Pages
 ;

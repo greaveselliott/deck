@@ -1,5 +1,5 @@
 import React from 'react';
-import CommentBox from '../components/comment-box';
+import CommentBox from '../comment-box';
 
 export default class SettingsPage extends React.Component {
   render() {
