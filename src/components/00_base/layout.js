@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../navigation';
+import Navigation from '../03_organisms/navigation';
 import Search from '../Search'
 
 export default class Layout extends React.Component {
