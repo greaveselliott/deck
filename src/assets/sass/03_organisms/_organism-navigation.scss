@@ -1,3 +1,7 @@
+$navigation__color: $color__text--dark;
+$navigation__color--hover: #000;
+$navigation__font-size: 24px;
+
 .navigation {
 
 }
@@ -7,5 +11,15 @@
 }
 
 .navigation__link {
+  padding-left: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  text-decoration: none;
+  color: $navigation__color;
+  font-size: $navigation__font-size;
 
+  &:hover {
+    color: $navigation__color--hover;
+  }
 }

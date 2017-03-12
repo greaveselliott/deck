@@ -4,18 +4,18 @@ import { Link } from "react-router";
 export default class Navigation extends React.Component {
     render() {
         return (
-        <ul className="navigation">
+        <ul className="navigation" role="menu">
             <li className="navigation__item">
-                <Link to="/decks" className="navigation__link">Decks</Link>
+                <Link id="decks" to="/decks" className="navigation__link" role="menu-item">Decks</Link>
             </li>
             <li className="navigation__item">
-                <Link to="/cards" className="navigation__link">Pictures</Link>
+                <Link id="picture" to="/cards" className="navigation__link" role="menu-item">Cards</Link>
             </li>
             <li className="navigation__item">
-                <Link to="/people" className="navigation__link">People</Link>
+                <Link id="people" to="/people" className="navigation__link" role="menu-item">People</Link>
             </li>
             <li className="navigation__item">
-                <Link to="/Settings" className="navigation__link">Settings</Link>
+                <Link id="settings" to="/settings" className="navigation__link" role="menu-item">Settings</Link>
             </li>
         </ul>
         )
