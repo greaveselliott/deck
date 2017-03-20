@@ -7,9 +7,16 @@ $navigation__font-size: 24px;
 }
 
 .navigation__item {
-
+  position: relative;
 }
-
+.navigation__icon {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 8px;
+  right: calc(50% + 30px);
+  z-index: 5;
+}
 .navigation__link {
   padding-left: 50%;
   padding-top: 15px;
@@ -18,6 +25,8 @@ $navigation__font-size: 24px;
   text-decoration: none;
   color: $navigation__color;
   font-size: $navigation__font-size;
+  position: relative;
+  z-index: 10;
 
   &:hover {
     color: $navigation__color--hover;
