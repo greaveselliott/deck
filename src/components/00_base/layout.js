@@ -1,4 +1,5 @@
 import React from 'react';
+import UserProfile from '../03_organisms/user-profile'
 import Navigation from '../03_organisms/navigation';
 import Search from '../Search'
 
@@ -7,6 +8,7 @@ export default class Layout extends React.Component {
     return (
       <div className="t-layout">
         <nav className="t-layout__sidebar">
+            <UserProfile/>
           <Navigation/>
         </nav>
         <main className="t-layout__desk">
