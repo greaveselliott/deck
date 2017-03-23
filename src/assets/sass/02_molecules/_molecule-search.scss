@@ -1,0 +1,17 @@
+.m-search {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  display: flex;
+}
+
+.m-search__field {
+  border: none;
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 18px;
+}
+
+.m-search__submit {
+    visibility: hidden;
+}

@@ -2,7 +2,7 @@ $layout__background--light: $color__accent--light;
 $layout__background--dark: $color__accent--dark;
 $layout__sidebar--color: $color__document;
 $layout__sidebar--width: 340px;
-$layout__gutter: $base-gutter;
+$layout__gutter: 16px;
 
 .t-layout {
   // Background
@@ -29,6 +29,5 @@ $layout__gutter: $base-gutter;
 }
 
 .t-layout__desk {
-  margin-left: $layout__gutter;
-  margin-right: $layout__gutter;
+  flex: 1;
 }

@@ -3,9 +3,9 @@ import React from "react";
 export default class Search extends React.Component {
     render() {
         return (
-            <form action="post" className="search" onSubmit="search()">
-                <input type="text" className="search__field" name="search"/>
-                <input type="submit" className="search__button"/>
+            <form action="post" className="m-search" onSubmit="search()">
+                <input type="text" className="m-search__field" name="search" placeholder="Search..."/>
+                <input type="submit" className="m-search__submit"/>
             </form>
         )
     }

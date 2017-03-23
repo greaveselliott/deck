@@ -53,3 +53,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+input, select, textarea {
+  font-family: 'Rasa', serif;
+
+  &:focus {
+    outline: none;
+  }
+}
