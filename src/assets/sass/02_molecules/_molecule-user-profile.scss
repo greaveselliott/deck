@@ -1,0 +1,21 @@
+
+$m-user-profile__margin-bottom: 15px;
+$m-user-profile__font-size: 19px;
+$m-user-profile__text-color: $color__text--dark;
+
+.m-user-profile {
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.m-user-profile__image {
+  max-width: 80px;
+  margin-bottom: $m-user-profile__margin-bottom;
+}
+
+.m-user-profile__name {
+  font-size: $m-user-profile__font-size;
+  color: $m-user-profile__text-color;
+}

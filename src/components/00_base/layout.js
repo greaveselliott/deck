@@ -1,5 +1,5 @@
 import React from 'react';
-import UserProfile from '../03_organisms/user-profile'
+import UserProfile from '../02_molecules/user-profile'
 import Navigation from '../03_organisms/navigation';
 import Search from '../Search'
 

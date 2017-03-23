@@ -1,26 +1,26 @@
 $navigation__color: $color__text--dark;
 $navigation__color--hover: #000;
-$navigation__font-size: 24px;
+$navigation__font-size: 18px;
 
-.navigation {
+.o-navigation {
 
 }
 
-.navigation__item {
+.o-navigation__item {
   position: relative;
 }
-.navigation__icon {
+.o-navigation__icon {
   height: 32px;
   width: 32px;
   position: absolute;
-  top: 8px;
+  top: calc(50% - 18px);
   right: calc(50% + 30px);
   z-index: 5;
 }
-.navigation__link {
+.o-navigation__link {
   padding-left: 50%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
   text-decoration: none;
   color: $navigation__color;

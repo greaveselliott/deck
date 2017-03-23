@@ -11,7 +11,7 @@ export default class IconProfile extends React.Component {
         };
 
         return (
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+            <svg className={this.props.className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
                 <defs>
                     <clipPath id="clip-path"><path style={style.profile__clipping_path} d="M.7 0h62.6v64H.7z"/></clipPath>
                 </defs>
