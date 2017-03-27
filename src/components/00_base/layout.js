@@ -1,7 +1,7 @@
 import React from 'react';
 import UserProfile from '../02_molecules/user-profile'
 import Navigation from '../03_organisms/navigation';
-import Search from '../Search'
+import Search from '../02_molecules/search'
 
 export default class Layout extends React.Component {
   render() {
