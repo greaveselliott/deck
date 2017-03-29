@@ -5,7 +5,7 @@ export default class IconProfile extends React.Component {
     render() {
         let style = {
             profile__clipping_path:     {fill: 'none'},
-            profile__clipping_mask:     {'clip-path': 'url(#clip-path)'},
+            profile__clipping_mask:     {clipPath: 'url(#clip-path)'},
             profile__background:        {fill: '#e7eced'},
             profile__man:               {fill: '#556080'}
         };

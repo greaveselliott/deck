@@ -3,10 +3,30 @@
   background-color: white;
   height: 40px;
   display: flex;
+  position: relative;
+  overflow: hidden;
 }
+
+.m-search--focused {
+  @extend .m-search;
+}
+
 .m-search__icon {
+  position: absolute;
   height: 24px;
+  pointer-events: none;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  opacity: 1;
+  transition: opacity 0.25s ease-in;
 }
+
+.m-search__icon--focused {
+  @extend .m-search__icon;
+  opacity: 0;
+}
+
+
 .m-search__field {
   border: none;
   text-align: center;
@@ -14,6 +34,10 @@
   font-size: 18px;
 }
 
+.m-search__field--focused {
+  @extend .m-search__field;
+}
 .m-search__submit {
     visibility: hidden;
+    position: absolute;
 }
