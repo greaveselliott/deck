@@ -41,7 +41,13 @@ export default class Search extends React.Component {
     }
 
     handleBlur() {
-        this.setState({focused: false, modifier: ""});
+        if (this.is_search_empty()) {
+            this.setState({focused: false, modifier: ""});
+        }
+    }
+
+    is_search_empty () {
+        return this.state.value === "git a";
     }
 
     handleSubmit(event) {
