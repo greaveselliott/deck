@@ -32,7 +32,6 @@ export default class Search extends React.Component {
     }
 
     handleChange(event) {
-        console.log(event);
         this.setState({value: event.target.value});
     }
 
@@ -47,7 +46,7 @@ export default class Search extends React.Component {
     }
 
     is_search_empty () {
-        return this.state.value === "git a";
+        return this.state.value === "";
     }
 
     handleSubmit(event) {

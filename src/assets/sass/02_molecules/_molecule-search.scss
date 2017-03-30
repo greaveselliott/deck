@@ -5,10 +5,12 @@
   display: flex;
   position: relative;
   overflow: hidden;
+  transition: height 0.17s ease-out;
 }
 
 .m-search--focused {
   @extend .m-search;
+  height: 54px;
 }
 
 .m-search__icon {
@@ -18,7 +20,7 @@
   left: calc(50% - 12px);
   top: calc(50% - 12px);
   opacity: 1;
-  transition: opacity 0.25s ease-in;
+  transition: opacity 0.15s ease-in;
 }
 
 .m-search__icon--focused {
