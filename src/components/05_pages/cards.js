@@ -1,5 +1,4 @@
 import React from 'react';
-import CommentBox from '../comment-box';
 
 export default class CardsPage extends React.Component {
   render() {
