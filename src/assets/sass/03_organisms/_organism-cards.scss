@@ -1,0 +1,73 @@
+$card--background-color: #f2f2f2;
+$card--text-color: #073542;
+
+$card__name--font-size: 20px;
+$card__name--line-height: 23px;
+$card__name--font-weight: 300;
+
+$card__content--font-size: 15px;
+$card__content--line-height: 20px;
+$card__content--font-weight: 100;
+
+.card {
+  background-color: $card--background-color;
+  border-radius: 18px;
+  color: $card--text-color;
+  padding: 30px;
+  width: 260px;
+  position: relative;
+  perspective: 1000px;
+  left: 50px;
+}
+
+.card__name {
+  color: inherit;
+  font-size: $card__name--font-size;
+  font-weight: $card__name--font-weight;
+  line-height: $card__name--line-height;
+  margin-bottom: 18px;
+}
+
+.card__image {
+  background-color: white;
+  border: solid 7px white;
+  border-bottom-width: 30px;
+  box-sizing: border-box;
+  height: 0;
+  left: calc(50%);
+  transform: translateX(-50%);
+  margin-bottom: 18px;
+  overflow: hidden;
+  padding: 50%;
+  position: relative;
+  width: 290px;
+
+  &:after {
+    background-color: black;
+    content: "";
+    display: block;
+    left: 0;
+    top: -20px;
+    right: 0px;
+    bottom: -45px;
+    transform: rotateY(150deg);
+  }
+}
+
+
+
+.card__image__img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.card__content {
+  color: inherit;
+  font-size: $card__content--font-size;
+  font-weight: $card__content--font-weight;
+  line-height: $card__content--line-height;
+}

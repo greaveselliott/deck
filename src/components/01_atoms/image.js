@@ -8,18 +8,25 @@ export default class Image extends React.Component {
         this.state = {
             loaded: false,
             loading: false,
-            width: 0,
-            height: 0,
             modifier: "",
             media_query: "",
-            src: this.props.src,
-            alt: this.props.alt
+            src: null,
+            alt: null
         }
     }
 
     render() {
         return (
-            <img className={this.props.className + this.state.modifier} src={this.state.src} alt={this.props.alt} width={this.state.width} height={this.state.height}/>
+            <figure className={this.props.className + this.state.modifier}>
+                <img className={this.props.className + "__img"} src={this.state.src} alt={this.props.alt} width={this.state.width} height={this.state.height}/>
+            </figure>
         )
     };
+
+    componentDidMount() {
+        this.setState({
+            src: this.props.src,
+            alt: this.props.alt
+        })
+    }
 };

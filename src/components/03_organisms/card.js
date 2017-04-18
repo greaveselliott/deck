@@ -7,23 +7,22 @@ export default class Card extends React.Component {
         super();
 
         this.state = {
-            guid: 'insert-guid-here',
-            title: this.props.title,
-            image: {
-                src: "http://placehold.it/160x100"
-            },
-
-            content: this.props.content
+            guid: null,
+            name: null,
+            image: null,
+            content: null
         }
     }
 
     render() {
+
         return (
             <article className="card">
-                <h3 className="card__name">{this.state.title}</h3>
-                <Image className="card__image" src={this.state.image.src}/>
-                <p className="card__content">{this.state.content}</p>
+                <h3 className="card__name">{this.props.name}</h3>
+                <Image className="card__image" src={this.props.image}/>
+                <p className="card__content">{this.props.content}</p>
             </article>
         )
     }
+
 }

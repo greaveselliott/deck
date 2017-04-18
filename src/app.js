@@ -15,8 +15,8 @@ const app = (
   <Router history={hashHistory}>
     <Redirect from="/" to="/decks" />
     <Route path="/" component={Layout}>
-      <Route path="decks" component={DecksPage} />
-      <Route path="cards" component={CardsPage} />
+        <Route path="decks" component={DecksPage} />
+        <Route path="cards" component={CardsPage} />
         <Route path="people" component={PeoplePage} />
         <Route path="settings" component={SettingsPage} />
     </Route>
