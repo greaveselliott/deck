@@ -17,8 +17,8 @@ export default class Image extends React.Component {
 
     render() {
         return (
-            <figure className={this.props.className + this.state.modifier}>
-                <img className={this.props.className + "__img"} src={this.state.src} alt={this.props.alt} width={this.state.width} height={this.state.height}/>
+            <figure className={"a-image--crop" + this.state.modifier}>
+                <img className={"a-image"} src={this.state.src} alt={this.props.alt} width={this.state.width} height={this.state.height}/>
             </figure>
         )
     };

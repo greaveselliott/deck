@@ -1,0 +1,14 @@
+.a-image {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.a-image--crop {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
