@@ -5,9 +5,9 @@ $card__name--font-size: 20px;
 $card__name--line-height: 20px;
 $card__name--font-weight: 300;
 
-$card__content--font-size: 15px;
+$card__content--font-size: 16px;
 $card__content--line-height: 20px;
-$card__content--font-weight: 100;
+$card__content--font-weight: 300;
 
 .o-card {
   background-color: $card--background-color;
@@ -23,9 +23,9 @@ $card__content--font-weight: 100;
   color: inherit;
   font-size: $card__name--font-size;
   font-weight: $card__name--font-weight;
-  line-height: $card__name--line-height;g
-  padding-left: 26px;
-  padding-right: 26px;
+  line-height: $card__name--line-height;
+  padding: 0 26px 4px;
+  letter-spacing: 0.015em;
 }
 
 .o-card__media {
@@ -39,6 +39,7 @@ $card__content--font-weight: 100;
   transform: translateX(-50%);
   width: 290px;
   perspective: 1000px;
+  pointer-events: none;
 }
 
 .o-card__shadow {
@@ -55,6 +56,6 @@ $card__content--font-weight: 100;
   font-size: $card__content--font-size;
   font-weight: $card__content--font-weight;
   line-height: $card__content--line-height;
-  padding-left: 26px;
-  padding-right: 26px;
+  letter-spacing: -0.005em;
+  padding: 10px 26px 5px;
 }

@@ -29,7 +29,7 @@ export default class Card extends React.Component {
         )
     }
 
-    _shadow(is_top, size = 1) {
+    _shadow(is_top, size = 0.5) {
 
         let points = is_top ? `0,${size} 20,${size} 20,0` : `0,0 20,0 20,${size}`;
         let viewBox = `-5 0 20 ${size}`;
