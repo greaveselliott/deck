@@ -11,9 +11,9 @@ $card__content--font-weight: 300;
 
 .o-card {
   background-color: $card--background-color;
-  border-radius: 18px;
+  border-radius: 22px;
   color: $card--text-color;
-  padding: 20px 0;
+  padding: 25px 0;
   width: 260px;
   position: relative;
   left: 50px;
@@ -24,7 +24,7 @@ $card__content--font-weight: 300;
   font-size: $card__name--font-size;
   font-weight: $card__name--font-weight;
   line-height: $card__name--line-height;
-  padding: 0 26px 4px;
+  padding: 0 28px 4px;
   letter-spacing: 0.015em;
 }
 
@@ -57,5 +57,5 @@ $card__content--font-weight: 300;
   font-weight: $card__content--font-weight;
   line-height: $card__content--line-height;
   letter-spacing: -0.005em;
-  padding: 10px 26px 5px;
+  padding: 10px 28px 5px;
 }

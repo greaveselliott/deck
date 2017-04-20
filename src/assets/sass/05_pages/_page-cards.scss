@@ -1,0 +1,15 @@
+.p-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 40px;
+  padding: 40px 15px;
+
+  @include respond-to("medium-up") {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respond-to("large-up") {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

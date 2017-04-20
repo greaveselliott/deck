@@ -42,7 +42,7 @@ $media-queries__all:
 
 @mixin respond-to ($media, $specific-width: false) {
 	@each $media_type in $media-queries__all {
-		@if $media == #{nth($media_type, 1)} {
+		@if $media == nth($media_type, 1) {
 			@media #{nth($media_type, 2)} {
 				@content;
 			}
