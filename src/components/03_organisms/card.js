@@ -10,7 +10,8 @@ export default class Card extends React.Component {
             guid: null,
             name: null,
             image: null,
-            content: null
+            content: null,
+            loaded: false
         }
     }
 
