@@ -7,14 +7,13 @@
   }
 }
 
-@mixin animated-background {
-  animation-duration: 1s;
+@mixin animated-background ($base-color: white, $secondary-color: #f5f5f5) {
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-name: placeHolderShimmer;
   animation-timing-function: linear;
-  background: #f6f7f8;
-  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background: $base-color;
+  background: linear-gradient(to right, $base-color 8%, $secondary-color 18%, $base-color 33%);
   background-size: 800px 104px;
-  position: relative;
 }

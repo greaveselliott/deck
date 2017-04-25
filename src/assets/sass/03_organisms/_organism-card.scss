@@ -9,6 +9,9 @@ $card__content--font-size: 16px;
 $card__content--line-height: 20px;
 $card__content--font-weight: 300;
 
+$card__placehold--line-height: 9px;
+$card__placehold--padding: 10px;
+
 .o-card {
   background-color: $card--background-color;
   border-radius: 22px;
@@ -19,6 +22,10 @@ $card__content--font-weight: 300;
   width: 260px;
 }
 
+.o-card--loading {
+  @extend .o-card
+}
+
 .o-card__name {
   color: inherit;
   font-size: $card__name--font-size;
@@ -26,6 +33,21 @@ $card__content--font-weight: 300;
   line-height: $card__name--line-height;
   padding: 0 28px 4px;
   letter-spacing: 0.015em;
+}
+
+.o-card__name--loading {
+  @extend .o-card__name;
+
+  display: block;
+  height: 12px;
+  margin: 4px 28px 8px;
+  text-indent: -10000px;
+  padding-top: 0;
+  position: relative;
+  white-space: nowrap;
+  width: 55%;
+
+  @include animated-background(#93A1A1, lighten(#93A1A1, 7));
 }
 
 .o-card__media {
@@ -40,6 +62,14 @@ $card__content--font-weight: 300;
   pointer-events: none;
 
   @include animated-background();
+
+}
+
+.o-card__media--loading {
+  @extend .o-card__media;
+
+  height: 0;
+  padding-top: 153px;
 }
 
 .o-card__shadow {
@@ -58,4 +88,38 @@ $card__content--font-weight: 300;
   line-height: $card__content--line-height;
   letter-spacing: -0.005em;
   padding: 10px 28px 5px;
+}
+
+
+.o-card__content--loading {
+  @extend .o-card__content;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  white-space: nowrap;
+  text-indent: -10000px;
+  position: relative;
+  height: $card__placehold--line-height;
+  margin: $card__placehold--line-height*2 28px calc(95px - #{$card__placehold--line-height});
+  display: block;
+
+  @include animated-background(#93A1A1, lighten(#93A1A1, 7));
+
+  &:before, &:after {
+    background: inherit;
+    content: "";
+    display: block;
+    height: inherit;
+    left: 0;
+    position: absolute;
+    top: calc(100% + #{$card__placehold--padding});
+    width: 100%;
+
+    @include animated-background(#93A1A1, lighten(#93A1A1, 7));
+  }
+
+  &:after {
+    top: calc(100% + #{$card__placehold--padding * 2 + $card__placehold--line-height});
+    width: 70%;
+  }
 }
