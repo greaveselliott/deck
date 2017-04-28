@@ -19,8 +19,6 @@ export default class Card extends React.Component {
 
     render () {
 
-
-
         return (
             <article className={"o-card" + this.state.modifier} onClick={this._toggle_loading}>
                 <h3 className={"o-card__name" + this.state.modifier}>{this.props.name}</h3>
@@ -47,7 +45,7 @@ export default class Card extends React.Component {
     }
 
     _toggle_loading() {
-        let loading = this.state.modifier === "" ? "--loading" : "";
+        let loading = this.state.modifier === "" ? "--small" : "";
 
         this.setState({modifier: loading})
     }

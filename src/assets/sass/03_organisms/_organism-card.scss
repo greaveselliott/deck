@@ -12,6 +12,9 @@ $card__content--font-weight: 300;
 $card__placehold--line-height: 9px;
 $card__placehold--padding: 10px;
 
+$card__modifier--loading: "--loading";
+$card__modifier--small: "--small";
+
 .o-card {
   background-color: $card--background-color;
   border-radius: 22px;
@@ -26,6 +29,11 @@ $card__placehold--padding: 10px;
   @extend .o-card
 }
 
+
+.o-card--small {
+  @extend .o-card
+}
+
 .o-card__name {
   color: inherit;
   font-size: $card__name--font-size;
@@ -35,7 +43,7 @@ $card__placehold--padding: 10px;
   letter-spacing: 0.015em;
 }
 
-.o-card__name--loading {
+.o-card__name#{$card__modifier--loading} {
   @extend .o-card__name;
 
   display: block;
@@ -48,6 +56,14 @@ $card__placehold--padding: 10px;
   width: 55%;
 
   @include animated-background(#93A1A1, lighten(#93A1A1, 7));
+}
+
+.o-card__name--small {
+  @extend .o-card__name;
+}
+
+.o-card__name#{$card__modifier--loading} {
+  @extend .o-card__name;
 }
 
 .o-card__media {
@@ -65,11 +81,19 @@ $card__placehold--padding: 10px;
 
 }
 
-.o-card__media--loading {
+.o-card__media {
   @extend .o-card__media;
 
   height: 0;
   padding-top: 153px;
+}
+
+.o-card__media--small {
+  @extend .o-card__media;
+}
+
+.o-card__media#{$card__modifier--loading} {
+  @extend .o-card__media;
 }
 
 .o-card__shadow {
@@ -90,8 +114,7 @@ $card__placehold--padding: 10px;
   padding: 10px 28px 5px;
 }
 
-
-.o-card__content--loading {
+.o-card__content#{$card__modifier--loading} {
   @extend .o-card__content;
 
   padding-top: 0;
@@ -100,7 +123,7 @@ $card__placehold--padding: 10px;
   text-indent: -10000px;
   position: relative;
   height: $card__placehold--line-height;
-  margin: $card__placehold--line-height*2 28px calc(95px - #{$card__placehold--line-height});
+  margin: $card__placehold--line-height*2 28px 68px;
   display: block;
 
   @include animated-background(#93A1A1, lighten(#93A1A1, 7));
@@ -122,4 +145,8 @@ $card__placehold--padding: 10px;
     top: calc(100% + #{$card__placehold--padding * 2 + $card__placehold--line-height});
     width: 70%;
   }
+}
+
+.o-card__content--small {
+  @extend .o-card__content;
 }
