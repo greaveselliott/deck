@@ -25,13 +25,17 @@ $card__modifier--small: "--small";
   width: 260px;
 }
 
-.o-card--loading {
+.o-card#{$card__modifier--loading} {
   @extend .o-card
 }
 
 
-.o-card--small {
-  @extend .o-card
+.o-card#{$card__modifier--small} {
+  @extend .o-card;
+
+  height: 165px;
+  padding: 18px 0;
+  width: 115px;
 }
 
 .o-card__name {
@@ -46,6 +50,7 @@ $card__modifier--small: "--small";
 .o-card__name#{$card__modifier--loading} {
   @extend .o-card__name;
 
+  background: #93A1A1;
   display: block;
   height: 12px;
   margin: 4px 28px 8px;
@@ -54,26 +59,25 @@ $card__modifier--small: "--small";
   position: relative;
   white-space: nowrap;
   width: 55%;
-
-  @include animated-background(#93A1A1, lighten(#93A1A1, 7));
-}
-
-.o-card__name--small {
-  @extend .o-card__name;
 }
 
 .o-card__name#{$card__modifier--loading} {
   @extend .o-card__name;
 }
 
+.o-card__name#{$card__modifier--small}  {
+  @extend .o-card__name#{$card__modifier--loading};
+  height: 6px;
+  margin: 0 18px 3px;
+}
 .o-card__media {
   background-color: white;
   border: solid 7px white;
   border-bottom-width: 30px;
   box-sizing: border-box;
   height: 190px;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -#{em-calc(15)};
+  margin-right: -#{em-calc(15)};
   position: relative;
   pointer-events: none;
 
@@ -81,19 +85,21 @@ $card__modifier--small: "--small";
 
 }
 
-.o-card__media {
+.o-card__media#{$card__modifier--loading}  {
   @extend .o-card__media;
 
   height: 0;
   padding-top: 153px;
 }
 
-.o-card__media--small {
+.o-card__media#{$card__modifier--small}  {
   @extend .o-card__media;
-}
 
-.o-card__media#{$card__modifier--loading} {
-  @extend .o-card__media;
+  border: solid 3px white;
+  border-bottom-width: 14px;
+  height: 78px;
+  margin-left: -#{em-calc(5)};
+  margin-right: -#{em-calc(5)};
 }
 
 .o-card__shadow {
@@ -117,6 +123,7 @@ $card__modifier--small: "--small";
 .o-card__content#{$card__modifier--loading} {
   @extend .o-card__content;
 
+  background: #93A1A1;
   padding-top: 0;
   padding-bottom: 0;
   white-space: nowrap;
@@ -126,8 +133,6 @@ $card__modifier--small: "--small";
   margin: $card__placehold--line-height*2 28px 68px;
   display: block;
 
-  @include animated-background(#93A1A1, lighten(#93A1A1, 7));
-
   &:before, &:after {
     background: inherit;
     content: "";
@@ -135,18 +140,19 @@ $card__modifier--small: "--small";
     height: inherit;
     left: 0;
     position: absolute;
-    top: calc(100% + #{$card__placehold--padding});
+    top: calc(100% + 0.5em);
     width: 100%;
-
-    @include animated-background(#93A1A1, lighten(#93A1A1, 7));
   }
 
   &:after {
-    top: calc(100% + #{$card__placehold--padding * 2 + $card__placehold--line-height});
+    top: calc(100% + 1.35em);
     width: 70%;
   }
 }
 
-.o-card__content--small {
-  @extend .o-card__content;
+.o-card__content#{$card__modifier--small}  {
+  @extend .o-card__content#{$card__modifier--loading};
+
+  height: 5px;
+  margin: 6px 18px 26px;
 }

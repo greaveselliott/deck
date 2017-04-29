@@ -7,12 +7,12 @@ export default class Card extends React.Component {
         super();
 
         this.state = {
-            guid: null,
+            id: null,
             name: null,
             image: null,
             content: null,
-            modifier: "--loading"
-        }
+            modifier: "--small"
+        };
 
         this._toggle_loading = this._toggle_loading.bind(this);
     }
